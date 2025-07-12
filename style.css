@@ -52,6 +52,6 @@ html {
 }
 @media (max-width: 414px) {
   .heroImg {
-  height: 290px !important;
-  width: 290px !important;
+  height: 300px !important;
+  width: 300px !important;
 }
