@@ -74,23 +74,23 @@ var TxtType = function(el, toRotate, period) {
 
     });
 
-  //   function updateActiveLink() {
-  //   const hash = window.location.hash;
-  //    document.querySelectorAll('nav a').forEach(link => {
+    function updateActiveLink() {
+    const hash = window.location.hash;
+     document.querySelectorAll('nav a').forEach(link => {
      
-  //     const href = link.getAttribute('href');
-  //     const isHome = (hash === "" || hash === "#") && href === "#";
-  //     const isMatch = href === hash;
+      const href = link.getAttribute('href');
+      const isHome = (hash === "" || hash === "#") && href === "#";
+      const isMatch = href === hash;
 
-  //     if (isMatch || isHome) {
-  //       link.classList.remove('text-white');
-  //       link.classList.add('text-green-500');
-  //     } else {
-  //       link.classList.remove('text-green-500');
-  //       link.classList.add('text-white');
-  //     }
-  //   });
-  // }
+      if (isMatch || isHome) {
+        link.classList.remove('text-white');
+        link.classList.add('text-green-500');
+      } else {
+        link.classList.remove('text-green-500');
+        link.classList.add('text-white');
+      }
+    });
+  }
 
-  // window.addEventListener('DOMContentLoaded', updateActiveLink);
-  // window.addEventListener('hashchange', updateActiveLink);
+  window.addEventListener('DOMContentLoaded', updateActiveLink);
+  window.addEventListener('hashchange', updateActiveLink);
