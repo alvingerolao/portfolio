@@ -50,3 +50,9 @@ html {
  .viber:hover {
   text-shadow: 0 0 5px #18b116, 0 0 10px #18b116, 0 0 10px #18b116;
 }
+@media (max-width: 414px) {
+  .heroImg {
+  height: 300px !important;
+  width: 300px !important;
+}
+}
