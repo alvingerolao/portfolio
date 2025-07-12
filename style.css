@@ -54,4 +54,11 @@ html {
   .heroImg {
   height: 300px !important;
   width: 300px !important;
+  }
+.heroContent{
+  text-align: center;
+    }
+.sociaItem{
+      justify-content: center;
+    }
 }
