@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alvin Gerolao - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="aichat.css"> 
+       <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="loader" class="fixed inset-0 bg-gray-900 flex items-center justify-center z-50">
+        <span  class="loader" ></span>
+    </div>
+    
+    <div id="con">
+        <nav
+            class="bg-gray-900 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+            >
+            <div
+                class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+            >
+                <a
+                href="https://flowbite.com/"
+                class="flex items-center space-x-3 rtl:space-x-reverse"
+                >
+                
+                <span
+                    class="self-center text-2xl font-semibold whitespace-nowrap text-green-500"
+                    >Alvinxx.436</span
+                >
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <a href="cv/GerolaoAlvin_Resume.pdf" download
+                    type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                >
+                    Download CV
+                </a>
+                <button
+                    data-collapse-toggle="navbar-sticky"
+                    type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-sticky"
+                    aria-expanded="false"
+                >
+                    <span class="sr-only">Open main menu</span>
+                    <svg
+                    class="w-5 h-5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 17 14"
+                    >
+                    <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15"
+                    />
+                    </svg>
+                </button>
+                </div>
+                <div
+                class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                id="navbar-sticky"
+                >
+                <ul
+                    class="flex flex-col  p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-900 md:bg-gray-900 border-gray-700"
+                >
+                    <li>
+                    <a
+                        href="#"
+                        class=" block py-2 px-3 text-white rounded-sm hover:bg-white md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:text-white hover:bg-gray-700 md:dark:hover:bg-transparent"
+                        
+                        
+                        >Home</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="#AboutMe"
+                        class=" block py-2 px-3 text-white rounded-sm hover:bg-white md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:text-white hover:bg-gray-700 md:dark:hover:bg-transparent"
+                        >About</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="#Services"
+                       class="block py-2 px-3 text-white rounded-sm hover:bg-white md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:text-white hover:bg-gray-700 md:dark:hover:bg-transparent"
+                        >Services</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="#Contact"
+                        class="block py-2 px-3 text-white rounded-sm hover:bg-white md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:text-white hover:bg-gray-700 md:dark:hover:bg-transparent"
+                         >Contact</a
+                    >
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="bg-gray-900 pt-16">
+        <div
+            class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+        >
+            <div class="lg:order-2 lg:mt-0 lg:col-span-5 lg:flex py-3 " data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
+            <div class="w-full flex justify-center" >
+                <img
+                src="Image/hero_img.jpg"
+                alt="mockup"
+                class=" sm:w-40 sm:h-40 md:w-50 md:h-50 rounded-full object-cover shadow-xl shadow-green-500/50 "
+                />
+            </div>
+            </div>
+            <div class="lg:order-1  mr-auto place-self-center px-5 lg:col-span-7" data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500">
+            <h1
+                class="max-w-4xl mb-4 text-xl font-extrabold tracking-tight leading-none  md:text-5xl xl:text-6xl text-green-500"
+            >
+                Hi, I’m Alvin G. Gerolao
+            </h1>
+            <p
+                class="typewrite max-w-3xl mb-6 font-light lg:mb-8 md:text-xl lg:text-2xl" 
+                data-period="2000" data-type='[ "Web and Software Developer" ]'
+                >
+                <span class="wrap"></span>></span>
+            </p>
+            <p
+                class="max-w-3xl mb-6 font-light  lg:mb-8 md:text-l lg:text-lg text-gray-400"
+            >
+                I design and build modern, responsive websites that deliver seamless
+                user experiences. Whether it’s a landing page or a full-stack web
+                app, I bring clean code and creative solutions to every project.
+            </p>
+            <div class="flex gap-5">
+                <a href="#">
+                    <i class="fb fa-brands fa-square-facebook fa-bounce fa-2xl text-green-600 "></i>
+                </a> 
+                <a href=""><i class="insta fa-brands fa-instagram fa-bounce fa-2xl" style="color: #18b116;"></i></a>
+                <a href=""><i class="viber fa-brands fa-viber fa-bounce fa-2xl  hover:text-blue-700" style="color: #18b116;"></i></a>
+                
+            </div>
+            </div>
+            
+        </div>
+        </section>
+        <!-- Hero Section -->
+
+        <!-- About me -->
+      <section class="bg-gray-900 sm:pt-2 " style="padding-top: 70px !important;" id="AboutMe">
+            <div class="flex justify-center">
+                <h1 data-aos="fade-down"
+                    class="max-w-4xl mb-4 text-3xl font-extrabold tracking-tight leading-none  md:text-4xl xl:text-5xl text-green-500"
+                >
+                About me
+                </h1>
+            </div>
+            <div   class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+                <img data-aos="fade-down-right" class="w-full h-full rounded-lg" src="Image/about_img.jpg" alt="dashboard image">
+               
+                <div id="large-screen-text" class="mt-4 md:mt-0"  data-aos="fade-down-left">
+                    <h2  class="mb-4 text-xl lg-text-3xl md:text-2xl tracking-tight font-extrabold text-green-500">A curious dive into code turned into a passion for building real-world solutions.</h2>
+                    <p class="font-light text-gray-400 md:text-lg ">Hi, I'm a self-taught programmer with a passion for building and problem-solving. I started my coding journey driven by curiosity and a desire to create things from scratch. Over time, I’ve explored various technologies and worked on small freelance projects to sharpen my skills and gain real-world experience.</p>
+                     <button id="see-more-btn" class=" m-0 sm:hidden bg-transparent text-white" style="padding: 0 !important;">See more...</button>   
+                  <p id="small-screen-text" class=" font-light hidden sm:block md:block lg:block text-gray-400 md:text-lg ">Freelancing has helped me grow not only as a developer but also in learning how to manage projects, communicate with clients, and adapt quickly to new challenges. I'm always eager to learn, improve, and take on new opportunities that push me forward.
+
+                        Right now, I'm focused on leveling up my skills and building a strong portfolio of practical, impactful projects. I'm open to collaboration, mentorship, or any opportunity to learn something new.</p>
+                        </p>
+                    <button id="see-less-btn" class=" hidden sm:hidden bg-transparent text-white" style="padding: 0 !important; margin: 0 !important;">See less...</button>   
+                </div>
+            </div>
+        </section>
+        <!-- About me -->
+        <!-- Sevices -->
+         <section class="bg-gray-900">
+            <div class="flex justify-center">
+                <h1 data-aos="fade-down"
+                    class="max-w-4xl mb-4 text-lg font-extrabold tracking-tight leading-none  md:text-4xl xl:text-5xl text-green-500"
+                >
+                Services
+                </h1>
+            </div>
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+            <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Get started
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+                <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+             <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Get started
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+            <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+            <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
+           
+        </div>
+    </section>
+        <!-- Services -->
+    </div>
+   
+    <script src="aiChat.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
