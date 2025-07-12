@@ -52,13 +52,13 @@ html {
 }
 @media (max-width: 414px) {
   .heroImg {
-  height: 300px !important;
-  width: 300px !important;
-  }
+  height: 280px !important;
+  width: 280px !important;
+}
 .heroContent{
   text-align: center;
-    }
+}
 .sociaItem{
-      justify-content: center;
-    }
+  justify-content: center;
+}
 }
